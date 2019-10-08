@@ -32,8 +32,6 @@ Msg="""
 import sys, threading, time, os, random, string, re,getpass
 from random import *
 import requests
-from colorama import *
-init()
 ##
 #Colors#
 la7mar  = '\033[91m'
