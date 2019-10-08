@@ -54,16 +54,16 @@ if not os.path.isdir('results'):
   os.mkdir('results')
 ##
 try:
-    zz=requests.get('https://raw.githubusercontent.com/m4rktnofficiel/M4RKGC/master/start.py')
+    zz=requests.get('https://raw.githubusercontent.com/Hackermrlinkerrorsystem/m4rkgcBETA/master/Start.py')
     if m4rk____Code not in zz.text.encode('utf-8'):
       print "{y}Notification {r}! {y}New Version Of {re}BETA \n{y}Do You Want To Get Update RightNow {r}?? ({y}Y{r}/{y}n{r})\033[00m".format(r=la7mar,g=la5dhar,y=la7mar,re=ramadi)
       tfq=raw_input("%s%sMRLINK%s > %s"%(star,ramadi,starend,lazra9))
       if tfq.upper() in ['Y','YES','O','OUI','SI','AY','EY','JA','HAY','YOI']:
        if os.name!='nt':
-         os.system('wget https://raw.githubusercontent.com/m4rktnofficiel/M4RKGC/master/start.py -O start.py')
+         os.system('wget https://raw.githubusercontent.com/Hackermrlinkerrorsystem/m4rkgcBETA/master/Start.py')
          sys.exit()
        else:
-           raw_input("%s{!} Opps !! Try It Manuelly \nlink> https://github.com/m4rktnofficiel/M4RKGC/"%la7mar)
+           raw_input("%s{!} Opps !! Try It Manuelly \nlink> https://github.com/m4rktnofficiel/m4rkgcBETA/"%la7mar)
       else:
         pass
 except:
@@ -794,7 +794,7 @@ class transformator(object):
 
     {r}[{b}1{r}]{y} Add Random E-mails
     {r}[{b}2{r}]{y} Single Domain E-mail """.format(r=la7mar,b=lazra9,y=lasfar,re=ramadi)
-    maill=raw_input('%sm4rk%s>%s'%(la7mar,ramadi,lazra9))
+    maill=raw_input('%sMRLINK%s>%s'%(la7mar,ramadi,lazra9))
     linklistmail=raw_input("%s[%s+%s] Enter List : %s"%(la7mar,la5dhar,la7mar,lazra9))
     if maill=='1':
       yoo=[]
